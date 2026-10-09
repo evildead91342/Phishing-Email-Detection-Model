@@ -1,0 +1,4 @@
+www.geeksforgeeks.com	 NOT malicious 
+www.google.com	 NOT malicious 
+www.instagram.com	 NOT malicious 
+www.facebook.com	 NOT malicious 

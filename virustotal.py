@@ -1,0 +1,14 @@
+import requests
+
+url = "https://www.virustotal.com/api/v3/urls"
+
+payload = "url=https%3A%2F%2Fgithub.com%2FMostafayahia-hunter%2FVirustotal-python-API-Domains-IPs-and-URLs-%2Fblob%2Fmain%2FVirustotal-python-API-Domains%2520and%2520URls.py"
+headers = {
+    "accept": "application/json",
+    "x-apikey": "09cb4f8901fdaf4d859dc96a87d596ea1ae419ae1ed2219bb25baf056d5adbb7",
+    "content-type": "application/x-www-form-urlencoded"
+}
+
+response = requests.post(url, data=payload, headers=headers)
+
+print(response.text)
